@@ -3,8 +3,10 @@ const { ethers } = require("ethers");
 const compound = require("@studydefi/money-legos/compound");
 const { Contract, Provider } = require('ethers-multicall');
 
-const bscNode = "https://winter-floral-sound.bsc.quiknode.pro/cfcded998f9d183303c10e2c132e03a55df752c1/"
+//npm install -S @studydefi/money-legos ethers ethers-multicall
 
+
+const bscNode = "https://winter-floral-sound.bsc.quiknode.pro/cfcded998f9d183303c10e2c132e03a55df752c1/"
 
 const provider = new ethers.providers.JsonRpcProvider(bscNode);
 
